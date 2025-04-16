@@ -25,17 +25,16 @@ A powerful and interactive mobile quiz application where admins can manage quizz
 
 ---
 
-## 📸 Screenshots
-
-> *(You can add screenshots here later to show off your app's UI and features!)*
-
----
-
 ## 📦 How to Run the App
 
-### 1️⃣ Backend (NestJS + MongoDB)
-
-```bash
-cd backend
+### Backend
+```
+cd server
 npm install
-npm run start
+npm run start:dev
+```
+### Frontend
+```
+cd ui
+npx expo start
+```
